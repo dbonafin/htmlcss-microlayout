@@ -111,7 +111,7 @@ p {
 
 .expedia-logo {
     display: none;
-    max-width: 100px;
+    max-width: 140px;
 }
 
 .price-comparation {
@@ -153,6 +153,7 @@ p {
 
     .view-offer-lg {
         display: block;
+        text-align: center;
     }
 
     .view-offer {
@@ -169,6 +170,7 @@ p {
 
     .expedia-logo {
         display: block;
+        margin: 0 auto;
     }
     
     .hotel_valutation {
@@ -190,5 +192,16 @@ p {
         order: 1;
     }
     
+    .old-price {
+        text-align: center;
+    }
+    
+    .new-price {
+        text-align: center;
+    }
+
+    .ms_btn_offer {
+        padding: 10px 30px;
+    }
 
 }
